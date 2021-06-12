@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Web RTC Test</title>
+    </head>
+    <body>
+        <table border="1px">
+            <tr>
+                <td>Name: <input type="text" name="name" id="name" /></td>
+            </tr>
+            <tr>
+                <td>------------ HOST ONLY ------------</td>
+            </tr>
+            <tr>
+                <td><button id="host">Host</button></td>
+            </tr>
+            <tr>
+                <TD>Share: <textarea name="" id="hostOffer" cols="30" rows="10"></textarea></TD>
+            </tr>
+            <tr>
+                <TD>Put Join Code: <textarea name="" id="acceptCode" cols="30" rows="10"></textarea></TD>
+            </tr>
+            <tr>
+                <td><button id="accept">Accept</button></td>
+            </tr>
+            <tr>
+                <td>------------ JOIN ONLY ------------</td>
+            </tr>
+            <tr>
+                <td>Offer: <textarea name="joinCode" id="joinCode" cols="30" rows="10"></textarea></TD>
+            </tr>
+            <tr>
+                <td><button id="join">Join</button></td>
+            </tr>
+            <tr>
+                <td>Share: <textarea name="" id="joinAnswer" cols="30" rows="10"></textarea></TD>
+            </tr>
+            <tr>
+                <td>------------ Chat ------------</td>
+            </tr>
+            <tr>
+                <TD>Send: <textarea name="" id="myMsg" cols="30" rows="10"></textarea></TD>
+            </tr>
+            <tr>
+                <td><button id="sendMsg">Send</button></td>
+            </tr>
+            <tr>
+                <TD>Log: <textarea name="" id="chatLog" cols="30" rows="10"></textarea></TD>
+            </tr>
+        </table>
+
+        
+        <script src="script.js"></script>
+    </body>
+</html>
